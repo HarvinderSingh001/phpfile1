@@ -1,0 +1,1 @@
+document.write("toh kaise h ap sab")

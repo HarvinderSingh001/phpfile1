@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .name{
+            border:3px solid black;
+            width:500px;
+            height:500px;
+            background-color:red;
+        }
+    </style>
+    <script>
+        function a(){
+            document.getElementById('box').style="background-color:yellow";
+        }
+        function b(){
+            alert("your form has been submitted")
+        }
+        function c(){
+            confirm("are you sure to log out");
+        }
+        function d(){
+            confirm("do  you  want to  change??")
+        }
+        
+    </script>
+
+
+</head>
+<!-- <body>
+    <div class="name" onkeydown="a()"  id="box"></div>
+    <button onclick="a()">clickMe</button> -->
+    <form   action="#" method="get">
+        Enter your name <input onchange="d()" value="change"   type="text">
+        <button type="submit">click</button>
+        </form>
+    
+</body>
+</html>
+
+
+<!-- Mouse events
+
+onclick
+onmouseup
+onmousedown
+onmouseover
+onmouseout
+onmousemove -->
+

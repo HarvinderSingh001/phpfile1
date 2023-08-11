@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="prac1.css">
+   
+</head>
+<body onunload="alert('your  form has been loaded ')">
+      <div id="box">helo</div>
+      <!-- <div onmouseover="a()">helo</div> -->
+      <!-- <div onkeydown="a()">helo</div> -->
+      <form   action="">
+        <input  type="text"  >
+        <input type="text" >
+            <button id="btn" onclick="a()" type="submit">click </button>
+      </form>
+      <script>
+        function a(){
+            alert("toh kaise h aap log??")
+        }
+        function b(){
+            document.write("toh kaise  h aap sab")
+        }
+        function c(){
+            alert("you are entering  your name ")
+        }
+        var button = document.getElementById('box')
+        // button.addEventListener('click',a)
+        // button.addEventListener('click',b)
+        // button.addEventListener('click',c)
+        button.addEventListener('mouseover',d)
+        function d(){
+            document.getElementById('box').style="background-color:yellow ; border:5px dotted red;"
+            
+        }
+        
+    </script>
+</body>
+</html>

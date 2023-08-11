@@ -1,0 +1,7 @@
+width
+height
+min-width
+max-width
+min-height
+max-height
+overflow scroll/hidden/visible by default / auto
